@@ -1,0 +1,15 @@
+{
+  "name": "dance-with-mani",
+  "version": "1.0.0",
+  "description": "WE HAVE THE BEST TRAINERS IN THE COUNTRY",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MOVI MANI",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}

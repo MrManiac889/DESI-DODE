@@ -1,0 +1,26 @@
+extends base.pug
+
+block script 
+        script                 
+            include ../static/index.js
+
+
+block style
+        style
+            include ../static/style.css
+            include ../static/styleContact.css
+           
+
+block content 
+        <h2 class="center">Contact Us</h2>
+        <form action="/" method="post" class="Form">
+                <input type="text" name="name"placeholder="ENTER YOUR  NAME" class="InputForm">
+                <input type="email" name="email" placeholder="ENTER YOUR EMAIL " class="InputForm">
+                <input type="phone" name="phone"placeholder="ENTER YOUR PHONE No. " class="InputForm">
+                <input type="age" name="age"placeholder="ENTER YOUR AGE " class="InputForm">
+                <input type="text" name="password"placeholder="ENTER YOUR ADDRESS" class="InputForm">
+                <input type="password" name="password"placeholder="ENTER YOUR PASSWORD " class="InputForm">
+                <input type="password" name="password"placeholder="CONFIRM PASSWORD " class="InputForm">
+                <p >AGREE TO OUR TERMS AND CONDITIONS</p><input type="checkbox" name="agreement" placeholder="AGREE TO OUR TERMS" class="InputForm">
+                <input type="button" name="submit" class="btn" value="SUBMIT">
+        </form>
